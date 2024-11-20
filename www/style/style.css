@@ -1,0 +1,397 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em arial, sans-serif;
+  background: #F6F4F0 url(pattern.png);
+  color: #47433F;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  padding: 0 0 5px 0;}
+
+h1, h4
+{ font: normal 175% "lucida sans unicode", arial;
+  margin: 0 0 15px 0;
+  padding: 15px 20px 5px 0;}
+
+h2, h5
+{ color: #B60000;
+  padding: 10px 0 15px 0;
+  font: normal 120% arial;}
+
+h3, h6
+{ color: #888;
+  font: italic 95% arial;
+  padding: 0 0 15px 0;}
+
+h4, h6
+{ color: #B60000;}
+
+h5
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #A4AA04;}
+
+a:hover
+{ text-decoration: none;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 25px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: url(back.png) repeat-x;
+  height: 185px;}
+
+#logo
+{ width: 875px;
+  position: relative;
+  height: 193px;
+  background: url(green_logo.jpg) no-repeat;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 10px;
+  left: 0;}
+
+#logo h1
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+  padding: 45px 0 0 0;
+  background: transparent;
+  color: #FFF;}
+
+#menubar
+{ width: 875px;
+  height: 48px;
+  padding: 0 0 0 4px;
+  position: absolute;
+  bottom: 0;} 
+
+ul#menu
+{ float: right;
+  height: 40px;
+  background: url(menu.png) repeat-x;
+  width: auto;}
+
+ul#menu li
+{ float: left;
+  margin: 6px 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+  width: auto;}
+
+ul#menu li a
+{ font: normal 100% 'lucida sans unicode', arialserif;
+  display: block; 
+  float: left; 
+  height: 12px;
+  padding: 2px 16px 8px 16px;
+  text-align: center;
+  background: transparent;
+  color: #FFF;
+  text-transform: uppercase;
+  border-left: 1px solid #DCE31D;
+  border-right: 1px solid #7E8204;
+  text-decoration: none;
+  width: auto;} 
+
+ul#menu li a.first
+{ border-left: 0;}
+
+ul#menu li a.last
+{ border-right: 0;}
+
+ul#menu li a:hover, ul#menu li.tab_selected a, ul#menu li.tab_selected a:hover
+{ color: #111;}
+
+#site_content
+{ width: 877px;
+  overflow: hidden;
+  margin: 20px auto} 
+
+.sidebar
+{ float: right;
+  width: 190px;
+  padding: 0 15px 20px 15px;}
+
+.sidebar h2
+{ padding: 0 0 5px 0;}
+
+.sidebar ul
+{ width: 190px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 25px;
+  display: block;
+  background: transparent url(link.png) no-repeat left center;} 
+
+.sidebar li a.selected
+{ color: #444;} 
+
+#content
+{ text-align: left;
+  width: 610px;
+  padding: 0;}
+
+#footer
+{ width: 100%;
+  font-family: sans-serif;
+  font-size: 90%;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #635B53 url(footer.png) repeat-x;
+  color: #A8AA94;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  
+}
+
+
+#footer a, #footer a:hover
+{ background: transparent;
+  color: #A8AA94;
+  text-decoration: none;
+}
+
+
+
+#footer a:hover
+{ background: transparent;
+  color: #FFF;}
+
+.yellow
+{ color: #F7C015;}
+
+.blue
+{ color: #05A4D1;}
+
+.orange
+{ color: #FF7A0F;}
+
+.red
+{ color: #C80500;}
+
+.purple
+{ color: #EB0FFF;}
+
+.green
+{ color: #A4AA04;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #63574B; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 304px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #63574B;
+  color: #FFF;
+  padding: 7px 4px;}
+  
+table tr td
+{ background: #C8BFB0;
+  color: #47433F;
+  border-top: 1px solid #EDEBE5;}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for more contrast */
+}
+
+.modal-content {
+    background-color: #C8BFB0;
+    margin: 10% auto; 
+    padding: 30px;
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 10px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Max width for larger screens */
+}
+
+.close {
+    color: #333; /* Darker close button for better visibility */
+    float: right;
+    font-size: 24px; /* Slightly smaller for a more subtle look */
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #e74c3c; /* Change color on hover for a pop effect */
+    cursor: pointer;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #A4AA04; /* Softer blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #A4AA04; /* Darker shade on hover */
+    color: rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Spacing inside the fields */
+    margin: 10px 0; /* Space between elements */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font for better readability */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #A4AA04; /* Change border color on focus */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Add shadow effect on focus */
+}
+
+label {
+    font-weight: bold; /* Make labels bold for emphasis */
+    margin-bottom: 5px; /* Space between label and input */
+    display: block; /* Ensure labels are on their own line */
+}
+
+
+.getInTouchBtn {
+  padding: 12px 20px;
+  background-color: #A4AA04; /* Softer blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.getInTouchBtn:hover {
+  background-color: #A4AA04; /* Darker shade on hover */
+  color: rgb(0, 0, 0);
+}
